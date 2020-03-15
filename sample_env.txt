@@ -1,0 +1,8 @@
+# PostgreSQL
+DATABASE_URL=postgres://postgres:12345@127.0.0.1:5432/hm_news_db
+
+# General settings
+DJANGO_SETTINGS_MODULE=hangmeas_news.settings.development
+DJANGO_SECRET_KEY=c8ys8vq0cth(ia)mbxajhu32o!ae$od(5ot_bms8ud^l$7fkki
+DJANGO_ALLOWED_HOSTS=['*']
+HANGMEAS_NEWS_LOG_FILE=/tmp/hangmeas_news.log
